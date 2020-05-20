@@ -19,13 +19,27 @@ public class teste01 {
 			System.out.printf("O valor deve ser positivo. Tente novamente: ");
 			largura = sc.nextDouble();
 		}
+		
+		// Leitura da altura com validação
+		
 		System.out.printf("Digite a altura do retângulo: ");
+		
 		altura = sc.nextDouble();
 		while (altura <= 0) {
 			System.out.printf("O valor deve ser positivo. Tente novamente: ");
 			altura = sc.nextDouble();
 		}
 
+		
+		System.out.println();
+		System.out.println("MENU");
+		System.out.println("1 - Mostrar area");
+		System.out.println("2 - Mostrar perimetro");
+		System.out.println("3 - Sair");
+		
+		
+		
+		
 		sc.close();
 	}
 
